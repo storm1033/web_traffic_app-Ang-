@@ -1,0 +1,37 @@
+.active{
+    border-bottom: 0.1vw solid #077867;
+}
+nav{
+    background: linear-gradient(to right, #0E576B, #0E576B, #0E576B);
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow-x: hidden;
+
+}
+.vertical-center{
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.logores{
+    display: block;
+    height: 85%;
+    width: 85%;
+}
+.imageres{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+span{
+    font-size: 1em;
+    color: white;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.footer{
+    
+}
