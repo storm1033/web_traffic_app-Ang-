@@ -7,6 +7,9 @@ import { MainpageComponent } from './arabic/components/mainpage/mainpage.compone
 import { SignupComponent } from './arabic/components/signup/signup.component';
 import { SigninComponent } from './arabic/components/signin/signin.component';
 import { HomeComponent } from './arabic/components/home/home.component';
+import { VideosComponent } from './arabic/components/videos/videos.component';
+import { CoursesComponent } from './arabic/components/courses/courses.component';
+import { ChaptersComponent } from './arabic/components/chapters/chapters.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,6 +17,9 @@ import { HomeComponent } from './arabic/components/home/home.component';
     SignupComponent,
     SigninComponent,
     HomeComponent,
+    VideosComponent,
+    CoursesComponent,
+    ChaptersComponent,
   ],
   imports: [
     BrowserModule,
