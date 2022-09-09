@@ -1,0 +1,96 @@
+.upperdiv{
+    background: linear-gradient(#0E576B, #0E576B,#0E576B,#073049, #073049);
+    border-radius: 0 0 4vw 4vw;
+}
+.bgwhite{
+    background-color: white;
+    border-radius: 15px;
+}
+.horizontal-center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card img{
+    max-height: 9vw;
+}
+
+.bgimg{
+    background-image: url(../../../../assets/bcktext.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+.comps{
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+h2{
+    color: white;
+    font-size: 3vw;
+}
+p{
+    color: white;
+    margin: 0%;
+    font-size: 1vw;
+}
+.vertical-center{
+    height: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    .pdesc{
+        font-size: 2vw;
+    }
+    .phead{
+        font-size: 3vw;
+    }
+    .phead1{
+        font-size: 2.5vw;
+    }
+    
+    .pdesc1{
+        font-size: 1.5vw;
+    }
+    h2{
+        color: white;
+        font-size: 3vw;
+    }
+    .mg{
+        margin-top: 7%;
+    }
+    .card img{
+        max-height: 19vw;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .pdesc{
+        font-size: 2.4vw;
+    }
+    .phead{
+        font-size: 3.4vw;
+    }
+    .phead1{
+        font-size: 3.2vw;
+    }
+    
+  }
+  @media screen and (max-width: 500px) {
+    .pdesc{
+        font-size: 3vw;
+    }
+    .phead{
+        font-size: 4vw;
+    }
+    .phead1{
+        font-size: 4vw;
+    }
+    
+  }
+
