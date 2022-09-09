@@ -10,6 +10,9 @@ import { HomeComponent } from './arabic/components/home/home.component';
 import { VideosComponent } from './arabic/components/videos/videos.component';
 import { CoursesComponent } from './arabic/components/courses/courses.component';
 import { ChaptersComponent } from './arabic/components/chapters/chapters.component';
+import { SignupandsigninComponent } from './arabic/components/signupandsignin/signupandsignin.component';
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,10 +23,12 @@ import { ChaptersComponent } from './arabic/components/chapters/chapters.compone
     VideosComponent,
     CoursesComponent,
     ChaptersComponent,
+    SignupandsigninComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

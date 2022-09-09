@@ -1,0 +1,29 @@
+<body class="signupandsignin" dir="rtl">
+    <div class="layer vertical-center">
+        <div class="d-block">
+        <div class="row horizontal-center">
+          <img src="../../../../assets/logo.png" class="img-fluid logores1" alt="Responsive image">
+        </div>
+        <div class="row mt-4 d-flex" style="justify-content: space-evenly;">
+            <div class="col-md-6 horizontal-center">
+                <p class="pdesc1">Login</p>
+            </div>
+            <div class="col-md-6 horizontal-center">
+                <p class="pdesc1">Signup</p>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <!-- (ngSubmit)="onClickSubmit(userName.value)" -->
+            <form #userName="ngForm"> 
+                <input class="mt-2" type="text" name="username" placeholder="اسم االمستخدم" ngModel>
+                <br/>
+                <input class="mt-2" type="text" name="email" placeholder="البريد الإلكتروني" ngModel>
+                <br/>
+                <input class="mt-2" type="text" name="password" placeholder="كلمه السر" ngModel> 
+                <br/>
+                <button class="mt-2" type="submit" value="submit">Submit </button> 
+            </form>
+        </div>
+        </div>
+    </div>
+</body>
