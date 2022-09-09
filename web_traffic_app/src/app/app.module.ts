@@ -10,6 +10,7 @@ import { HomeComponent } from './arabic/components/home/home.component';
 import { VideosComponent } from './arabic/components/videos/videos.component';
 import { CoursesComponent } from './arabic/components/courses/courses.component';
 import { ChaptersComponent } from './arabic/components/chapters/chapters.component';
+import { CourseComponent } from './arabic/components/course/course.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +21,7 @@ import { ChaptersComponent } from './arabic/components/chapters/chapters.compone
     VideosComponent,
     CoursesComponent,
     ChaptersComponent,
+    CourseComponent,
   ],
   imports: [
     BrowserModule,
