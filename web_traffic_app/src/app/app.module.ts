@@ -13,7 +13,6 @@ import { ChaptersComponent } from './arabic/components/chapters/chapters.compone
 import { CourseComponent } from './arabic/components/course/course.component';
 import { SignupandsigninComponent } from './arabic/components/signupandsignin/signupandsignin.component';
 import { FormsModule } from '@angular/forms';
-
 @NgModule({
   declarations: [
     AppComponent,

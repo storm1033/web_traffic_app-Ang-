@@ -1,3 +1,6 @@
+<link rel="stylesheet" 
+href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body class="signupandsignin" dir="rtl">
     <div class="layer vertical-center">
         <div class="d-block">
@@ -13,12 +16,17 @@
             </div>
         </div>
         <div class="row mt-2">
+
+
             <!-- (ngSubmit)="onClickSubmit(userName.value)" -->
-            <form #userName="ngForm"> 
+            <form #userName="ngForm" style="position: relative;"> 
+                <i class="fa fa-user icon1"></i>
                 <input class="mt-2" type="text" name="username" placeholder="اسم االمستخدم" ngModel>
                 <br/>
+                <i class="fa fa-envelope icon2"></i>
                 <input class="mt-2" type="text" name="email" placeholder="البريد الإلكتروني" ngModel>
                 <br/>
+                <i class="fa fa-lock icon3"></i>
                 <input class="mt-2" type="text" name="password" placeholder="كلمه السر" ngModel> 
                 <br/>
                 <button class="mt-2" type="submit" value="submit">Submit </button> 

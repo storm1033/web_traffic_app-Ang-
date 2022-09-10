@@ -225,6 +225,26 @@ p{
 
   input{
     padding: 2%;
-    font-size: 1.8vw;
+    padding-right: 13%;
+    font-size: 1.3vw;
     color: black;
+  }
+
+  .icon1{
+    position: absolute;
+    top: 10.5%;
+    left: 88%;
+    font-size: 1.8vw;
+  }
+  .icon2{
+    position: absolute;
+    top: 35.5%;
+    left: 86%;
+    font-size: 1.6vw;
+  }
+  .icon3{
+    position: absolute;
+    top: 60.5%;
+    left: 88%;
+    font-size: 1.8vw;
   }
